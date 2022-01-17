@@ -4,8 +4,6 @@ title: Posts
 permalink: /posts/
 ---
 
-# Posts
-
 A list containing the blog-posts made on this site:
 
 <ul>
