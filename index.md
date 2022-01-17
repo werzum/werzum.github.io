@@ -1,4 +1,3 @@
-<!-- index.md -->
 ---
 layout: home
 list_title: Read my latest posts
