@@ -6,7 +6,7 @@ permalink: /posts/
 
 # Posts
 
-A list containing the blog-posts made on this site.
+A list containing the blog-posts made on this site:
 
 <ul>
   {% for post in site.posts %}
