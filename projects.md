@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Projects
+title: "Projects"
 permalink: /projects/
 ---
+# Projects
+
+A list of my Github Projects:
 
 {% for repo in site.github.public_repositories %}
 
