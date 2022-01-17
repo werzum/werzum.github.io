@@ -12,10 +12,10 @@ Expect posts about steel, AI, music, cooking, philosophy and climbing (a non-exh
 ## Posts
 
 This site contains a list of posts I have published:
-[Post List]({% link posts.md  %})
+[Post List](posts.md)
 
 ## Projects
 
 This site contains a list of Github projects I have been up to:
-[Project List]({% link projects.md  %})
+[Project List](projects.md)
 
