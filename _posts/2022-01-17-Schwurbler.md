@@ -1,4 +1,11 @@
-![[Aushang.png]]
+–––
+layout: post
+title: "Stammtischmathe"
+date: 2022-01-17
+categories: misc
+–––
+
+![[/assets/Aushang.png]]
 
 In Charlottenburg ist mir dieser Aushang an einer Kneipe aufgefallen und hat mich dazu motiviert, sich einmal mit schlecht zu Papier gebrachter Stammtischmathematik auseinanderzusetzen. Direkt frage ich mich, warum "eine" groß und fett gedruckt wurde statt "Jahren". Aber lasst uns die Aussagen des Aushangs einmal zusammenfassen:
 
@@ -13,10 +20,10 @@ Hier fangen die mathematischen Wirrungen jedoch an. Wie oben beschrieben, bezeic
 Vermutlich meint der Autor mit der Aussage eigentlich die asymptotische Funktion. Dies würde jedoch auch bedeuten, dass zu einem Zeitpunkt $x = 0$ das Lernen maximal, also bei 1 war. Diese Lernkurve hat dann ab einem Zeitpunkt rapide abgenommen, und geht jetzt gegen null. 
 
 Für eine konkrete Grafik zu Aussage 1 hilft hier der Zusatz "seit Jahren", weshalb der Startzeitpunkt als zwischen fünf und zehn Jahren angenommen wird. Wenn wir die Funktion einmal plotten, resultiert das in folgender Grafik:
-![[asymptote.png]]
+![[/assets/asymptote.png]]
 
 Als Definition von Aussage 1) folgt im Aushang nun die Funktion aus Aussage 2). Diese zeigt auch das besagte asymptotische Verhalten, jedoch bezogen auf den Politikerverstand und die Anzahl an Politikern. Die Aussage 1), die auf der x-Achse "Zeit" und y-Achse "Lernen" gesetzt hat, ist damit eigentlich hinfällig. In der nächsten Grafik sehen wir einmal die nach Aussage 2) geplottete Funktion. Die Wertemenge sind die natürlichen Zahlen (1,2,3,...), was zum Glück der Politiker bedeutet, dass es keine halben von ihnen gibt.
-![[Politikerverstand.png]]
+![[/assets/Politikerverstand.png]]
 
 Als Aussage dieser Funktion ist interessant, dass ein einzelner Politiker den höchstmöglichen politischen Verstand besitzt, und dieser mit zunehmender Anzahl stark absinkt. Der Wirkmechanismus dieser Aussage ist zweifelhaft, würde aber interessante Folgen mit sich bringen. So würde, wenn die Funktion den Verstand der einzelnen Politikers beschreibt, der Verstand der Politiker insgesamt immer eins bleiben - ob nun $f(1 Politiker) = 1 ~Verstand$ oder für vier Politiker $f(4 Politiker) = 0.25 ~Verstand$, die Summe des politischen Verstands bleibt 1. 
 Falls der politische Verstand jedoch die Summe über alle Politiker bezeichnet, sähe es schwarz für uns aus. Als Beispiel mit dem aktuellen Bundestag hätten wir dann nur $f(709) = 0.0014 ~politischen Verstand$, eine erschreckend geringe Zahl. 
