@@ -1,9 +1,9 @@
-–––
+---
 layout: post
 title: "Stammtischmathe"
 date: 2022-01-17
 categories: misc
-–––
+---
 ## Aushang und Aussagen
 
 ![Ein Foto vom Aushang](/assets/Aushang.png)
