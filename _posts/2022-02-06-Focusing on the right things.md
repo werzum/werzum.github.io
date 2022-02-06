@@ -1,9 +1,9 @@
-–––
+---
 layout: post
-title: "Focusing on the right thingd"
+title: "Focusing on the right things"
 date: 2022-02-06
 categories: misc
-–––
+---
 ### Things I worry about
 
 I noticed that there is often a huge discrepancy between the things I worry about and the things that actually pose a problem for me.
