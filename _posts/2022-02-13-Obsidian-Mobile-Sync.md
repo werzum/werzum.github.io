@@ -5,7 +5,7 @@ date: 2022-02-06
 categories: tech
 ---
 
-#### Goal
+### Goal
 
 Obsidian is a great markdown based note-taking app which can not be recommended enough - have a more detailed look at it [here](https://obsidian.md/).
 Since Obsidian leaves it up to you (optionally, there is also a paid service which is very nice) how to sync your generated markdown files, using `git` is a popular approach.
@@ -15,7 +15,7 @@ In this guide, I want to show you how to set up such a git-based, automatic work
 The idea is to use Termux on Android to manage your git repository and create a shortcut which triggers a complete pull-push action for quick syncing via one click.
 The process is as follows:
 
-##### Steps
+### Steps
 
 1. **Install termux, termux widget and (obviously) obsidian**
 
@@ -75,6 +75,6 @@ Copy this key and add it over the Github website to your account (broadly under 
 
 Now, you just have to create a termux widget on your android main screen, and should be able to execute the `sync_script.sh`.
 
-##### Wrapup
+### Wrapup
 Let me know if it worked, I hope this helped! I can only recommend to give Obsidian a try, it certainly helped me a lot during my studies and work.
 Also, there are probably several smaller steps I missed in this write-up, let me know if you encountered anything major I missed.
