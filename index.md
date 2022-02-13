@@ -18,4 +18,3 @@ This site contains a list of posts I have published:
 
 This site contains a list of Github projects I have been up to:
 [Project List](projects.md)
-
