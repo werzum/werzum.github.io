@@ -7,8 +7,9 @@ categories: tech
 
 #### Goal
 
-Obsidian is a great markdown based note-taking app which can not be recommended enough - have a more detailed look at it here: https://obsidian.md/
-Since Obsidian leaves it up to you (optionally, there is also a paid service which is very nice) how to sync your generated markdown files, using `git` is a popular approach. The desktop-version of obsidian also has a great git-plugin (https://github.com/denolehov/obsidian-git), which enables hassle-free backups and just works.
+Obsidian is a great markdown based note-taking app which can not be recommended enough - have a more detailed look at it [here](https://obsidian.md/).
+Since Obsidian leaves it up to you (optionally, there is also a paid service which is very nice) how to sync your generated markdown files, using `git` is a popular approach.
+The desktop-version of obsidian also has a great [git-plugin](https://github.com/denolehov/obsidian-git), which enables hassle-free backups and just works.
 If you also want to have your knowledge base on mobile however, things become a little more complicated.
 In this guide, I want to show you how to set up such a git-based, automatic workflow for syncing your Obsidian database on Android.
 The idea is to use Termux on Android to manage your git repository and create a shortcut which triggers a complete pull-push action for quick syncing via one click.
@@ -18,7 +19,7 @@ The process is as follows:
 
 1. **Install termux, termux widget and (obviously) obsidian**
 
-From https://github.com/termux/termux-app, https://github.com/termux/termux-widget download the APKs and install them. Obsidian can be found on the play store.
+From [Github Termux](https://github.com/termux/termux-app), [Github Termux Widget](https://github.com/termux/termux-widget) download the APKs and install them. Obsidian can be found on the play store.
 
 2. **Install git, open-ssh and clone repo**
 
@@ -47,8 +48,8 @@ chmod 700 -R /data/data/com.termux/files/home/.shortcuts/tasks
 ```
 4. **Create the sync script**
 
-type  `nano /data/data/com.termux/files/home/.shortcuts/tasks/sync_cript.sh`  to enter the nano text editor and create the `sync_script.sh` . 
-Then, add the following content
+Type  `nano /data/data/com.termux/files/home/.shortcuts/tasks/sync_cript.sh`  to enter the nano text editor and create the `sync_script.sh` . 
+Then, add the following content:
 ```
 #!/bin/bash  
 cd /storage/emulated/0/repositories/Obsidian-Knowledge-Base  
@@ -68,7 +69,7 @@ And then "print" the generated public key.
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-Copy this key and add it over the Github website to your account (broadly under /Settings/Access/SSH Keys)
+Copy this key and add it over the Github website to your account (broadly under /Settings/Access/SSH Keys).
 
 6. **Add widget with shortcut to home screen and enjoy**
 
