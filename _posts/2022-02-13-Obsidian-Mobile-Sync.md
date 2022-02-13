@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Mobile Sync for Obsidian"
+date: 2022-02-06
+categories: tech
+---
+
 #### Goal
 
 Obsidian is a great markdown based note-taking app which can not be recommended enough - have a more detailed look at it here: https://obsidian.md/
