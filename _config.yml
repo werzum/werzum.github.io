@@ -13,3 +13,21 @@ description: A collection of different tidbits about interesting topics I encoun
 header_pages:
   - projects.md
   - posts.md
+
+comments:
+  provider:            giscus
+
+giscus:
+  repo:                "werzum/werzum.github.io"
+  repo-id:             "MDEwOlJlcG9zaXRvcnkzODI4MzgwMjk"
+  category:            "Comments"
+  category-id:         "DIC_kwDOFtGlDc4CQURp"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  theme:               "dark_dimmed"
+  crossorigin:         "anonymous"
+
+
+defaults:
+    values:
+      comments: true

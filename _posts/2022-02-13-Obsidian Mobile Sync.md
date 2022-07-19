@@ -20,61 +20,61 @@ The process is as follows:
 
 **1. Install termux, termux widget and (obviously) obsidian**
 
-    From [Github Termux](https://github.com/termux/termux-app), [Github Termux Widget](https://github.com/termux/termux-widget) download the APKs and install them. Obsidian can be found on the play store.
+ From [Github Termux](https://github.com/termux/termux-app), [Github Termux Widget](https://github.com/termux/termux-widget) download the APKs and install them. Obsidian can be found on the play store.
 
 **2. Install git, open-ssh and clone repo**
 
-    Open termux on your phone and
-    `apt install git, open-ssh`
-    and
-    `git clone <your-github-repo>`
+ Open termux on your phone and
+ `apt install git, open-ssh`
+ and
+ `git clone <your-github-repo>`
 
-    This will clone your knowledge base and install the required applications.
-    I recommend to also create a .gitignore with the following content:
-    ```
-    .obsidian/workspace
-    .obsidian/app.json
-    ```
-    in order to prevent your desktop /workspace configuration from messing up or changing your android config and vice versa.
+ This will clone your knowledge base and install the required applications.
+ I recommend to also create a .gitignore with the following content:
+ ```
+ .obsidian/workspace
+ .obsidian/app.json
+ ```
+ in order to prevent your desktop /workspace configuration from messing up or changing your android config and vice versa.
 
 **3. Create shortcut folders**
 
-    According to the termux widget instruction, create a directory for the shortcuts:
-    ```
-    mkdir -p /data/data/com.termux/files/home/.shortcuts
-    chmod 700 -R /data/data/com.termux/files/home/.shortcuts
+ According to the termux widget instruction, create a directory for the shortcuts:
+ ```
+ mkdir -p /data/data/com.termux/files/home/.shortcuts
+ chmod 700 -R /data/data/com.termux/files/home/.shortcuts
 
-    mkdir -p /data/data/com.termux/files/home/.shortcuts/tasks
-    chmod 700 -R /data/data/com.termux/files/home/.shortcuts/tasks
-    ```
+ mkdir -p /data/data/com.termux/files/home/.shortcuts/tasks
+ chmod 700 -R /data/data/com.termux/files/home/.shortcuts/tasks
+ ```
 **4. Create the sync script**
 
-    Type  `nano /data/data/com.termux/files/home/.shortcuts/tasks/sync_cript.sh`  to enter the nano text editor and create the `sync_script.sh` . 
-    Then, add the following content:
-    ```
-    #!/bin/bash  
-    cd /storage/emulated/0/repositories/Obsidian-Knowledge-Base  
-    git pull && git add * && git commit -a -m "commit from android" && git push
-    ```
-    This script first goes to the folder where I have stored my obsidian data (change this if needed).
-    Then, it tries to pull new changes and will then add all your changes to Github. This step could probably be more refined, send me a message if you have comments or ideas on how to make this a little more resilient.
+ Type  `nano /data/data/com.termux/files/home/.shortcuts/tasks/sync_cript.sh`  to enter the nano text editor and create the `sync_script.sh` . 
+ Then, add the following content:
+ ```
+ #!/bin/bash  
+ cd /storage/emulated/0/repositories/Obsidian-Knowledge-Base  
+ git pull && git add * && git commit -a -m "commit from android" && git push
+ ```
+ This script first goes to the folder where I have stored my obsidian data (change this if needed).
+ Then, it tries to pull new changes and will then add all your changes to Github. This step could probably be more refined, send me a message if you have comments or ideas on how to make this a little more resilient.
 
 **5. Create SSH keys and add them to your Github account**
 
-    Now, you will want to authenticate to Github over SSH to allow the synchronization to happen without having to provide your password every time.
-    To do that, run the following (choose a password for your SSH key if you wish):
-    ```
-    ssh-keygen -t ed25519
-    ```
-    And then "print" the generated public key.
-    ```
-    cat ~/.ssh/id_rsa.pub
-    ```
-    Copy this key and add it over the Github website to your account (broadly under /Settings/Access/SSH Keys).
+ Now, you will want to authenticate to Github over SSH to allow the synchronization to happen without having to provide your password every time.
+ To do that, run the following (choose a password for your SSH key if you wish):
+ ```
+ ssh-keygen -t ed25519
+ ```
+ And then "print" the generated public key.
+ ```
+ cat ~/.ssh/id_rsa.pub
+ ```
+ Copy this key and add it over the Github website to your account (broadly under /Settings/Access/SSH Keys).
 
 **6. Add widget with shortcut to home screen and enjoy**
 
-    Now, you just have to create a termux widget on your android main screen, and should be able to execute the `sync_script.sh`.
+ Now, you just have to create a termux widget on your android main screen, and should be able to execute the `sync_script.sh`.
 
 ### Wrapup
 Let me know if it worked, I hope this helped! I can only recommend to give Obsidian a try, it certainly helped me a lot during my studies and work.
