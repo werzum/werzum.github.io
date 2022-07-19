@@ -25,3 +25,16 @@ This also requires a better general judgement of importance and imminency. I'd a
 
 Therefore, my takeaway is to keep track of and re-inspect the large-scale goals you have, and check occasionally if your previous evaluation was correct and thorough (mine wasn't). This also coincides with one of the (many) lessons I took from HPMOR (https://www.hpmor.com/), which was to reinspect decisions you have made from time to time, since circumstances or facts you once assumed change quite frequently, and often influence the decision you once made.  At least for me, more often than not, I could correct a decision I made, which I would otherwise just have taken for granted by default.
 As a trigger for this inspection, I'd think that a regular once-a-month interval could be used, or just whenever a small problem has come up you are currently worrying about. To use the occurence of a small problem as occasion could also help with putting the event into perspective, and maybe worrying less about it- but as a drawback, you could miss important deadlines since its occurence is dictated by chance. Maybe a combination of both the regular and chance approach works best-  you only have to stick to it.
+
+<div class="container">
+        <div class="row">
+                <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <script src="https://giscus.app/client.js" data-repo="werzum/werzum.github.io"
+                                data-repo-id="MDEwOlJlcG9zaXRvcnkzODI4MzgwMjk=" data-category="Announcements"
+                                data-category-id="DIC_kwDOFtGlDc4CQURp" data-mapping="pathname"
+                                data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+                                data-theme="light" data-lang="en" crossorigin="anonymous" async>
+                                </script>
+                </div>
+        </div>
+</div>

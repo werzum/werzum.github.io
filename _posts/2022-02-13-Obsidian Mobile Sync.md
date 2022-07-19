@@ -79,3 +79,16 @@ The process is as follows:
 ### Wrapup
 Let me know if it worked, I hope this helped! I can only recommend to give Obsidian a try, it certainly helped me a lot during my studies and work.
 Also, there are probably several smaller steps I missed in this write-up, let me know if you encountered anything major I missed.
+
+<div class="container">
+        <div class="row">
+                <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <script src="https://giscus.app/client.js" data-repo="werzum/werzum.github.io"
+                                data-repo-id="MDEwOlJlcG9zaXRvcnkzODI4MzgwMjk=" data-category="Announcements"
+                                data-category-id="DIC_kwDOFtGlDc4CQURp" data-mapping="pathname"
+                                data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+                                data-theme="light" data-lang="en" crossorigin="anonymous" async>
+                                </script>
+                </div>
+        </div>
+</div>

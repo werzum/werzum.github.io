@@ -43,3 +43,16 @@ Zusammengefasst hat der Autor die Grenzen der Funktion in Aussage 2) ordentlich 
 
 Insgesamt fehlt eine genauere Definition, was die Funktion eigentlich beschreibt - die Lernkurve oder politischer Verstand? Und was sollen Politiker lernen? Generell riecht der Aushang natürlich etwas nach Querdenkerei, auch die Ausschlussliste aus Aussage 3) an politischen Parteien stellen mehr oder weniger den politischen Mainstream dar. Durch den Einbezug von WHO und RKI bekommt das ganze eine Note von COVID-19, aber "seit Jahren" impliziert, dass es schon vorher ein Problem gab. Vielleicht war also Corona doch ein Inside Job, um uns klein zu halten?! 
 Mein Fazit: klassische Stammtischmathematik mit der Absicht, durch den Einsatz von hochgestochenem Vokabular Hau-Drauf-Aussagen plausibler erscheinen zu lassen.
+
+<div class="container">
+        <div class="row">
+                <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <script src="https://giscus.app/client.js" data-repo="werzum/werzum.github.io"
+                                data-repo-id="MDEwOlJlcG9zaXRvcnkzODI4MzgwMjk=" data-category="Announcements"
+                                data-category-id="DIC_kwDOFtGlDc4CQURp" data-mapping="pathname"
+                                data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+                                data-theme="light" data-lang="en" crossorigin="anonymous" async>
+                                </script>
+                </div>
+        </div>
+</div>
