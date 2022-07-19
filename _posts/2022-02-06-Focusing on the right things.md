@@ -3,6 +3,7 @@ layout: post
 title: "Focusing on the right things"
 date: 2022-02-06
 categories: misc
+author: Carl Orge Retzlaff
 ---
 ### Things I worry about
 

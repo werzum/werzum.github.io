@@ -3,6 +3,7 @@ layout: post
 title: "Stammtischmathe"
 date: 2022-01-17
 categories: misc
+author: Carl Orge Retzlaff
 ---
 ## Aushang und Aussagen
 

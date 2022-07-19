@@ -1,7 +1,6 @@
 ---
-layout: home
-list_title: Read my latest posts
-title: ''
+layout: page
+title: "Home"
 ---
 
 # Some Thoughts Blog

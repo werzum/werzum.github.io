@@ -5,4 +5,11 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
 
-theme: jekyll-theme-minimal
+theme: minima
+
+title: Some Thoughts
+description: A collection of different tidbits about interesting topics I encountered
+
+header_pages:
+  - projects.md
+  - posts.md

@@ -3,6 +3,7 @@ layout: post
 title: "Mobile Sync for Obsidian"
 date: 2022-02-13
 categories: tech
+author: Carl Orge Retzlaff
 ---
 
 ### Goal
