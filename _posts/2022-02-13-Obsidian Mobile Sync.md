@@ -25,7 +25,7 @@ The process is as follows:
 **2. Install git, open-ssh and clone repo**
 
  Open termux on your phone and
- `apt install git, open-ssh`
+ `pkg install git, open-ssh`
  and
  `git clone <your-github-repo>`
 
