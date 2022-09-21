@@ -71,8 +71,16 @@ The process is as follows:
  cat ~/.ssh/id_rsa.pub
  ```
  Copy this key and add it over the Github website to your account (broadly under /Settings/Access/SSH Keys).
+ 
+**6. Allow Termux to access your storage**
+ 
+ Finally, you have to allow Termux to access your storage. You can do this by running:
+ ```
+ termux-setup-storage
+ ```
+ This creates a new directory in termux, ~/storage, which contains simlinks to /storage/emulated/0 and can be accessed by a standard gui file manager (verbatim by [this](https://android.stackexchange.com/questions/166538/where-is-the-folder-that-termux-defaults-to) helpful SO answer)
 
-**6. Add widget with shortcut to home screen and enjoy**
+**7. Add widget with shortcut to home screen and enjoy**
 
  Now, you just have to create a termux widget on your android main screen, and should be able to execute the `sync_script.sh`.
 
